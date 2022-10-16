@@ -36,7 +36,8 @@ sentence_two = [f'It is from the tech land {origin}. ',
 sentence_three = [f'Grab it soon only on {usd_price} USD which is almost equal to {bdt_price} BDT.',
                     f'Excited about price? Don\'t worry. It\'s only {usd_price} USD which is {bdt_price} BDT in your currency.',
                     f'We provide you this phone in a affordable price. It\'s only {usd_price} USD which is {bdt_price} BDT in current time.',
-                    f'You can\'t believe! It\'s only {usd_price} USD which is {bdt_price} BDT in this time.']
+                    f'You can\'t believe! It\'s only {usd_price} USD which is {bdt_price} BDT in this time.'
+                    f'The price is {usd_price} USD which is {bdt_price} BDT.']
 
 templete_list = random.choice(sentence_one) + random.choice(sentence_two) + random.choice(sentence_three)
 print(templete_list)
