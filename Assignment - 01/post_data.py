@@ -37,3 +37,16 @@ post_data = [
     }, ]
 
 # Your Code Start from here
+get_dict = post_data[4]
+title = get_dict['title']
+slug_keyword_list = title.strip().split(' ')
+if len(slug_keyword_list) >= 3:
+    slug_keyword = slug_keyword_list[0:3]
+else:
+    slug_keyword = slug_keyword_list
+
+final_slug = '-'.join(slug_keyword)
+get_dict['slug'] = final_slug
+# Your code ends here
+
+print(post_data[4])
